@@ -1,6 +1,6 @@
 version: 2
-jobs: 
-  build: 
+jobs:
+  build:
     working_directory: ~/tmp
     docker:
       -img: circle/node:9.4.0
